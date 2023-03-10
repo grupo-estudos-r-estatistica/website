@@ -1,0 +1,48 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "GERE"
+  favicon: featured-hex.png
+  site-url: "https://gere.netlify.app"
+  page-footer:
+    left: "Website feito com 💜 e [Quarto](https://quarto.org/), por GERE. Licença: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://github.com/grupo-estudos-r-estatistica
+      - icon: twitter
+        href: https://twitter.com/gere
+      - icon: envelope
+        href: mailto:milz.bea@gmail.com
+  twitter-card:
+    creator: "@gere"
+    card-style: summary_large_image
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - members.qmd
+      - icon: github
+        href: https://github.com/grupo-estudos-r-estatistica
+      - icon: twitter
+        href: https://twitter.com/gere
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    link-external-icon: false
+    link-external-newwindow: true
+    link-external-filter: '^(?:http:|https:)\/\/www\.beamilz\.com\/**'
+    citations-hover: true
+    footnotes-hover: true
+    include-in-header: meta.html
+    toc: true
+    code-link: true
+
+editor: visual
+

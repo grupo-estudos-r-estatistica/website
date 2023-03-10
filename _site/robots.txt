@@ -1,0 +1,1 @@
+Sitemap: https://gere.netlify.app/sitemap.xml
